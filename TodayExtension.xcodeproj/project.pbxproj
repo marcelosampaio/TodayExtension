@@ -54,14 +54,54 @@
 		82D798331FFFB2A00083C4D9 /* TodayExtension */ = {
 			isa = PBXGroup;
 			children = (
-				82D798341FFFB2A00083C4D9 /* AppDelegate.swift */,
-				82D798361FFFB2A00083C4D9 /* ViewController.swift */,
-				82D798381FFFB2A00083C4D9 /* Main.storyboard */,
+				82D798471FFFB2BE0083C4D9 /* Controller */,
+				82D798481FFFB2CC0083C4D9 /* Extension */,
+				82D7984A1FFFB2E80083C4D9 /* User Interface */,
+				82D798461FFFB2B30083C4D9 /* Root */,
 				82D7983B1FFFB2A00083C4D9 /* Assets.xcassets */,
-				82D7983D1FFFB2A00083C4D9 /* LaunchScreen.storyboard */,
 				82D798401FFFB2A00083C4D9 /* Info.plist */,
 			);
 			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		82D798461FFFB2B30083C4D9 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				82D798341FFFB2A00083C4D9 /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		82D798471FFFB2BE0083C4D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82D798361FFFB2A00083C4D9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82D798481FFFB2CC0083C4D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82D798491FFFB2DF0083C4D9 /* Today */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		82D798491FFFB2DF0083C4D9 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		82D7984A1FFFB2E80083C4D9 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				82D798381FFFB2A00083C4D9 /* Main.storyboard */,
+				82D7983D1FFFB2A00083C4D9 /* LaunchScreen.storyboard */,
+			);
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U294U2N56;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAS.TodayExtension;
@@ -289,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U294U2N56;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAS.TodayExtension;
